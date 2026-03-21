@@ -13,6 +13,13 @@ test.describe('E2E Tests', () => {
     await joinAmisragasPage.fillLastName("בדיקה");
     await joinAmisragasPage.selectPhoneCode(1);
     await joinAmisragasPage.fillPhoneNumber("1234567");
+    await joinAmisragasPage.fillPhone2("046288514");
+    await joinAmisragasPage.fillFax("046288514");
+    await joinAmisragasPage.fillCustomerId("123456");
+    await joinAmisragasPage.fillCity("תל אביב");
+    await joinAmisragasPage.fillStreet("הרצל 1");
+    await joinAmisragasPage.fillZip("12345");
+    await joinAmisragasPage.fillMessage("הודעת בדיקה");
     await page.pause();
      
    
