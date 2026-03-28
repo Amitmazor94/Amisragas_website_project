@@ -12,9 +12,10 @@ class JoinAmisragasPage extends BasePage{
     streetField: string
     zipField: string
     messageField: string
+    supplierField: string
     constructor(page: any){
         super(page)
-        this.subjectField= `xpath=//div[@class='srv-form__items']/div[1]//select`
+        this.subjectField= "select[name='subject']"
         this.firstNameField= `input[name="firstname"]`
         this.lastNameField= `input[name="surname"]`
         this.phoneCodeField= `select[name="phone-code"]`
@@ -26,10 +27,13 @@ class JoinAmisragasPage extends BasePage{
         this.streetField= `input[name="street"]`
         this.zipField= `input[name="zip"]`
         this.messageField= `textarea[name="message"]`
+        this.supplierField= `select[name="supplier"]`
     }
 
-    async selectJoiAmisragas(): Promise<void>{
-        await this.chooseFromList(this.subjectField, 1);
+    async selectSubject(value: string): Promise<void>{
+        //await this.chooseFromList(this.subjectField, 1);
+        await this.chooseFromListByValue(this.subjectField, value)
+        
     }
 
     async fillFirstName(value: string): Promise<void>{
@@ -75,6 +79,10 @@ class JoinAmisragasPage extends BasePage{
     async selectPhoneCode(value: number): Promise<void>{
        // await this.page.locator(this.phoneCodeField).selectOption({value: value});
        await this.chooseFromList(this.phoneCodeField, value);
+    }
+
+    async selectSupplier(value: string): Promise<void>{
+        await this.chooseFromListByValue(this.supplierField, value);
     }
 
 }export {JoinAmisragasPage}

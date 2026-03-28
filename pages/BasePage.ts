@@ -41,6 +41,12 @@ import {Page, Locator, BrowserContext} from '@playwright/test';
        await field.selectOption({index: i})
     }
 
+    async chooseFromListByValue(element:string, value: string): Promise<void>{
+       await this.checkVisibility(element);
+       const field= this.page.locator(element);
+       await field.selectOption({label: value})
+    }
+
     
 
     
