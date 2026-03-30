@@ -36,7 +36,7 @@ import {Page, Locator, BrowserContext} from '@playwright/test';
        return this.page.locator(element).isVisible();
     }
 
-    async chooseFromList(element:string, i: number): Promise<void>{
+    async chooseFromListByIndex(element:string, i: number): Promise<void>{
        const field= this.page.locator(element);
        await field.selectOption({index: i})
     }
@@ -47,12 +47,9 @@ import {Page, Locator, BrowserContext} from '@playwright/test';
        await field.selectOption({label: value})
     }
 
-    
-
-    
-
-    
-
-
+    async uploadFile(locator: string, filePath: string): Promise<void>{
+       const fileInput= this.page.locator(locator);
+       await fileInput.setInputFiles(filePath);
+    }
 
     }export {BasePage}

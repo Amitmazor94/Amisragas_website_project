@@ -1,3 +1,4 @@
+import { write } from "node:fs";
 import { BasePage } from "./BasePage";
 class JoinAmisragasPage extends BasePage{
     subjectField: string
@@ -13,6 +14,8 @@ class JoinAmisragasPage extends BasePage{
     zipField: string
     messageField: string
     supplierField: string
+    fileUploadField: string
+    emailField: string
     constructor(page: any){
         super(page)
         this.subjectField= "select[name='subject']"
@@ -28,12 +31,13 @@ class JoinAmisragasPage extends BasePage{
         this.zipField= `input[name="zip"]`
         this.messageField= `textarea[name="message"]`
         this.supplierField= `select[name="supplier"]`
+        this.fileUploadField= "input[type='file']"
+        this.emailField="input[name='email']"
+        
     }
 
     async selectSubject(value: string): Promise<void>{
-        //await this.chooseFromList(this.subjectField, 1);
         await this.chooseFromListByValue(this.subjectField, value)
-        
     }
 
     async fillFirstName(value: string): Promise<void>{
@@ -50,6 +54,9 @@ class JoinAmisragasPage extends BasePage{
 
     async fillPhone2(value: string): Promise<void>{
         await this.writeText(this.phoneField, value);
+    }
+    async fillEmailField(value: string): Promise<void>{
+        await this.writeText(this.emailField, value);
     }
 
     async fillFax(value: string): Promise<void>{
@@ -77,12 +84,15 @@ class JoinAmisragasPage extends BasePage{
     }
 
     async selectPhoneCode(value: number): Promise<void>{
-       // await this.page.locator(this.phoneCodeField).selectOption({value: value});
-       await this.chooseFromList(this.phoneCodeField, value);
+       await this.chooseFromListByIndex(this.phoneCodeField, value);
     }
 
     async selectSupplier(value: string): Promise<void>{
         await this.chooseFromListByValue(this.supplierField, value);
+    }
+
+    async uploadFileToForm(filePath: string): Promise<void>{
+        await this.uploadFile(this.fileUploadField, filePath);
     }
 
 }export {JoinAmisragasPage}
