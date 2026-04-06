@@ -1,8 +1,5 @@
-// Importing the 'write' function from Node.js built-in file system module (not used directly here but available)
-import { write } from "node:fs";
 // Importing the BasePage class to extend its shared page methods and properties
 import { BasePage } from "./BasePage";
-
 // ─────────────────────────────────────────────
 // CLASS DECLARATION
 // ─────────────────────────────────────────────

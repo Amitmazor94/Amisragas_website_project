@@ -1,0 +1,19 @@
+{
+    "subject": "הצטרפות לאמישראגז",
+    "phoneCodeIndex": 1,
+    "supplier": "גז פיקס",
+    "firstName": "בדיקהבדיקה",
+    "lastName": "בדיקה",
+    "phoneNumber": "0000000",
+    "phone2": "046288514",
+    "email": "test@test.com",
+    "fax": "046288514",
+    "customerId": "123456",
+    "city": "תל אביב",
+    "street": "הרצל 1",
+    "zip": "12345",
+    "message": "הודעת בדיקה",
+    "filePath": "C:/Users/amitm/automation_Projects/amisragas_project/Data/Capture.PNG",
+    "expectedSuccessUrl": "https://www.amisragas.co.il/contact-success/",
+    "waitForUrlValue": "contact-success"
+}
