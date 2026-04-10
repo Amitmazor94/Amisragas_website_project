@@ -12,27 +12,91 @@ test.describe('E2E Tests', () => {
     test('Send join-amisragas lead', async({page}) => { // Defines a single test; Playwright injects the 'page' browser instance
 
         const homePage=new HomePage(page); // Creates a HomePage instance using the Playwright page object
-        await homePage.openAmisragasWebsite(); // Navigates the browser to the Amisragas home page
-        await homePage.closeCookieAcceptPopup(); // Dismisses the cookie consent popup if it appears
-        const joinAmisragasPage= await homePage.navigateToJoinPage(); // Clicks the join button and returns the new page as a JoinAmisragasPage object
-        await joinAmisragasPage.selectSubject(formData.subject); // Selects "Join Amisragas" as the subject of the inquiry
-        await joinAmisragasPage.selectPhoneCode(formData.phoneCodeIndex); // Selects the phone country code at index 1 (e.g. +972 for Israel)
-        await joinAmisragasPage.selectSupplier(formData.supplier); // Selects "Gaz Fix" as the current gas supplier
-        await joinAmisragasPage.fillFirstName(formData.firstName); // Types "Test" (in Hebrew) into the first name field
-        await joinAmisragasPage.fillLastName(formData.lastName); // Types "Test" (in Hebrew) into the last name field
-        await joinAmisragasPage.fillPhoneNumber(formData.phoneNumber); // Types a placeholder mobile phone number
-        await joinAmisragasPage.fillPhone2(formData.phone2); // Types a secondary phone number
-        await joinAmisragasPage.fillEmailField(formData.email) // Types a test email address
-        await joinAmisragasPage.fillFax(formData.fax); // Types a fax number
-        await joinAmisragasPage.fillCustomerId(formData.customerId); // Types a test customer/ID number
-        await joinAmisragasPage.fillCity(formData.city); // Types "Tel Aviv" as the city
-        await joinAmisragasPage.fillStreet(formData.street); // Types "Herzl 1" as the street address
-        await joinAmisragasPage.fillZip(formData.zip); // Types a test zip/postal code
-        await joinAmisragasPage.fillMessage(formData.message); // Types "Test message" (in Hebrew) into the message textarea
-        await joinAmisragasPage.uploadFileToForm(formData.filePath); // Attaches a local PNG file to the form's file upload input
-        await joinAmisragasPage.clickSubmit(); // Clicks the submit button to send the form
-        await joinAmisragasPage.waitForUrl(formData.waitForUrlValue); // Waits until the URL contains 'contact-success' (the success redirect)
-        expect(joinAmisragasPage.getCurrentUrl()).toBe(formData.expectedSuccessUrl); // Asserts the final URL exactly matches the expected success page URL
-        await page.pause(); // Pauses the test execution so the browser stays open for manual inspection
+
+        await test.step('Open Amisragas website', async () => {
+            await homePage.openAmisragasWebsite();
+        });
+
+        await test.step('Close cookie popup', async () => {
+            await homePage.closeCookieAcceptPopup();
+        });
+
+        const joinAmisragasPage = await test.step('Navigate to join page', async () => {
+            return await homePage.navigateToJoinPage();
+        });
+
+        await test.step('Select subject', async () => {
+            await joinAmisragasPage.selectSubject(formData.subject);
+        });
+
+        await test.step('Select phone code', async () => {
+            await joinAmisragasPage.selectPhoneCode(formData.phoneCodeIndex);
+        });
+
+        await test.step('Select supplier', async () => {
+            await joinAmisragasPage.selectSupplier(formData.supplier);
+        });
+
+        await test.step('Fill first name', async () => {
+            await joinAmisragasPage.fillFirstName(formData.firstName);
+        });
+
+        await test.step('Fill last name', async () => {
+            await joinAmisragasPage.fillLastName(formData.lastName);
+        });
+
+        await test.step('Fill phone number', async () => {
+            await joinAmisragasPage.fillPhoneNumber(formData.phoneNumber);
+        });
+
+        await test.step('Fill secondary phone', async () => {
+            await joinAmisragasPage.fillPhone2(formData.phone2);
+        });
+
+        await test.step('Fill email', async () => {
+            await joinAmisragasPage.fillEmailField(formData.email);
+        });
+
+        await test.step('Fill fax', async () => {
+            await joinAmisragasPage.fillFax(formData.fax);
+        });
+
+        await test.step('Fill customer ID', async () => {
+            await joinAmisragasPage.fillCustomerId(formData.customerId);
+        });
+
+        await test.step('Fill city', async () => {
+            await joinAmisragasPage.fillCity(formData.city);
+        });
+
+        await test.step('Fill street', async () => {
+            await joinAmisragasPage.fillStreet(formData.street);
+        });
+
+        await test.step('Fill zip code', async () => {
+            await joinAmisragasPage.fillZip(formData.zip);
+        });
+
+        await test.step('Fill message', async () => {
+            await joinAmisragasPage.fillMessage(formData.message);
+        });
+
+        await test.step('Upload file', async () => {
+            await joinAmisragasPage.uploadFileToForm(formData.filePath);
+        });
+
+        await test.step('Submit form', async () => {
+            await joinAmisragasPage.clickSubmit();
+        });
+
+        await test.step('Wait for success redirect', async () => {
+            await joinAmisragasPage.waitForUrl(formData.waitForUrlValue);
+        });
+
+        await test.step('Verify success URL', async () => {
+            expect(joinAmisragasPage.getCurrentUrl()).toBe(formData.expectedSuccessUrl);
+        });
+
+        await page.pause();
     });
 });
