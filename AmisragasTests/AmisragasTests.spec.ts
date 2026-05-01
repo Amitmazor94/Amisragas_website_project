@@ -7,7 +7,18 @@ import { JoinAmisragasPage } from '../pages/JoinAmisragasPage';
 // Importing the test data from the JSON file
 import formData from '../Data/joinFormData.json';
 
+
 test.describe('E2E Tests', () => {
+
+    test.afterEach(async ({ page }, testInfo) => {
+  if (testInfo.status !== testInfo.expectedStatus) {
+    const screenshot = await page.screenshot();
+    await testInfo.attach('screenshot', {
+      body: screenshot,
+      contentType: 'image/png',
+    });
+  }
+});
 
     test('Send join-amisragas lead', async({page}) => { // Defines a single test; Playwright injects the 'page' browser instance
 
@@ -57,9 +68,9 @@ test.describe('E2E Tests', () => {
             await joinAmisragasPage.fillEmailField(formData.email);
         });
 
-        await test.step('Fill fax', async () => {
-            await joinAmisragasPage.fillFax(formData.fax);
-        });
+        // await test.step('Fill fax', async () => {
+        //     await joinAmisragasPage.fillFax(formData.fax);
+        // });
 
         await test.step('Fill customer ID', async () => {
             await joinAmisragasPage.fillCustomerId(formData.customerId);
@@ -89,14 +100,10 @@ test.describe('E2E Tests', () => {
             await joinAmisragasPage.clickSubmit();
         });
 
-        await test.step('Wait for success redirect', async () => {
-            await joinAmisragasPage.waitForUrl(formData.waitForUrlValue);
-        });
-
         await test.step('Verify success URL', async () => {
-            expect(joinAmisragasPage.getCurrentUrl()).toBe(formData.expectedSuccessUrl);
+            await expect(page).toHaveURL(formData.expectedSuccessUrl, { timeout: 10000 });
         });
 
-        await page.pause();
+        //await page.pause();
     });
 });

@@ -7,9 +7,6 @@
     "esModuleInterop": true,
     "strict": false,
     "skipLibCheck": true,
-    "types": ["node"]
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "types": ["node", "@playwright/test"]
+  }
 }

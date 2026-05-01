@@ -1,0 +1,542 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "דילוג לתוכן" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - navigation [ref=e3]:
+    - button "פתח סרגל נגישות כלי נגישות" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: פתח סרגל נגישות
+      - img "כלי נגישות" [ref=e7]
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: כלי נגישות
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - button [ref=e14] [cursor=pointer]:
+            - img [ref=e16]
+            - text: הגדל טקסט
+        - listitem [ref=e18]:
+          - button [ref=e19] [cursor=pointer]:
+            - img [ref=e21]
+            - text: הקטן טקסט
+        - listitem [ref=e23]:
+          - button [ref=e24] [cursor=pointer]:
+            - img [ref=e26]
+            - text: גווני אפור
+        - listitem [ref=e28]:
+          - button [ref=e29] [cursor=pointer]:
+            - img [ref=e31]
+            - text: ניגודיות גבוהה
+        - listitem [ref=e33]:
+          - button [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - text: ניגודיות הפוכה
+        - listitem [ref=e38]:
+          - button [ref=e39] [cursor=pointer]:
+            - img [ref=e41]
+            - text: רקע בהיר
+        - listitem [ref=e43]:
+          - button [ref=e44] [cursor=pointer]:
+            - img [ref=e46]
+            - text: הדגשת קישורים
+        - listitem [ref=e48]:
+          - button [ref=e49] [cursor=pointer]:
+            - img [ref=e51]
+            - text: פונט קריא
+        - listitem [ref=e53]:
+          - button [ref=e54] [cursor=pointer]:
+            - img [ref=e56]
+            - text: איפוס
+  - generic [ref=e59]:
+    - navigation:
+      - link "דלג לתפריט עליון":
+        - /url: "#heading"
+      - link "דלג לתוכן המרכזי":
+        - /url: "#heading"
+      - link "דלג לתפריט תחתון":
+        - /url: "#heading"
+    - banner [ref=e60]:
+      - generic [ref=e62]:
+        - link "עמוד הבית לוגו אמישראגז" [ref=e63] [cursor=pointer]:
+          - /url: https://www.amisragas.co.il
+        - navigation [ref=e64]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - link "עמוד הבית" [ref=e67] [cursor=pointer]:
+                - /url: https://www.amisragas.co.il
+            - listitem [ref=e68]:
+              - button "גז" [ref=e69] [cursor=pointer]: גז
+            - listitem [ref=e70]:
+              - button "חשמל" [ref=e71] [cursor=pointer]: חשמל
+            - listitem [ref=e72]:
+              - button "אנרגיה ירוקה" [ref=e73] [cursor=pointer]: אנרגיה ירוקה
+            - listitem [ref=e74]:
+              - link "דודי שמש" [ref=e75] [cursor=pointer]:
+                - /url: https://www.amisragas.co.il/solar-water-heater-page/
+            - listitem [ref=e76]:
+              - button "מידע מקצועי" [ref=e77] [cursor=pointer]: מידע מקצועי
+            - listitem [ref=e78]:
+              - button "חנות" [ref=e79] [cursor=pointer]: חנות
+            - listitem [ref=e80]:
+              - button "שירות ותמיכה" [ref=e81] [cursor=pointer]: שירות ותמיכה
+            - listitem [ref=e82]:
+              - link "קריירה" [ref=e83] [cursor=pointer]:
+                - /url: https://www.amisragas.co.il/careers/
+            - listitem [ref=e84]:
+              - link "חירום" [ref=e85] [cursor=pointer]:
+                - /url: https://www.amisragas.co.il/emergency-page/
+        - generic [ref=e86]:
+          - button "סל הקניות" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: 
+          - button "חיפוש" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: 
+    - main [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - link [ref=e97] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/
+          - link "סדרת גרילי SAHARA החדשים מבית אמישראגז Energy עכשיו במחירי השקה! לרכישה מושלם למרפסת ולחצר הובלה והרכבה במתנה שילוב של עיצוב והנדסה חכמה *בתוקף עד 22.04.26 או עד גמר המלאי. מינימום 100 יח' במלאי" [ref=e101] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/?filters=brand[224]
+          - link [ref=e105] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%9E%D7%98%D7%91%D7%97-%D7%97%D7%95%D7%A5-%D7%A1%D7%94%D7%A8%D7%94/
+          - link [ref=e109] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%A9%D7%A2%D7%AA-%D7%97%D7%99%D7%A8%D7%95%D7%9D/
+          - link [ref=e113] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A0%D7%A8%D7%98%D7%95%D7%A8%D7%99%D7%9D/
+          - link [ref=e117] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/shop/%D7%9E%D7%97%D7%9E%D7%9E%D7%99-%D7%9E%D7%99%D7%9D/
+          - link [ref=e121] [cursor=pointer]:
+            - /url: /מיכלים-לגריל/
+          - link [ref=e125] [cursor=pointer]:
+            - /url: https://www.amisragas.co.il/tanks-order/
+        - generic [ref=e127]:
+          - button "עבור לשקופית הקודמת" [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: 
+          - generic [ref=e130]:
+            - generic [ref=e131]: "02"
+            - text: /
+            - generic [ref=e132]: "08"
+          - button "עבור לשקופית הבאה" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e139]: הזמנת מיכל ביתי .
+          - link "הזמנת מיכל גז" [ref=e140] [cursor=pointer]:
+            - /url: /tanks-order/
+        - generic [ref=e141]:
+          - generic [ref=e143]: תשלום חשבון גז
+          - link "תשלום חשבון גז" [ref=e144] [cursor=pointer]:
+            - /url: /pay-gas-bill/
+        - generic [ref=e145]:
+          - generic [ref=e147]: הצטרפות לאמישראגז
+          - link "הצטרפות לאמישראגזז" [active] [ref=e148] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=e149]:
+          - generic [ref=e151]: הצטרפות לחשמל
+          - link "הצטרפות לחשמל" [ref=e152] [cursor=pointer]:
+            - /url: https://c.howazit.com/e/6536045958?data=leadSrc=אתר
+        - link "לפעולות נוספות " [ref=e154] [cursor=pointer]:
+          - /url: /self-service/
+          - generic [ref=e155]: לפעולות נוספות
+          - generic [ref=e156]: 
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - heading "השירותים של אמישראגז" [level=1] [ref=e160]
+          - tablist [ref=e161]:
+            - tab "אנרגיה" [selected] [ref=e162] [cursor=pointer]:
+              - img [ref=e163]
+              - generic [ref=e165]: אנרגיה
+            - tab "אנרגיה ירוקה" [ref=e166] [cursor=pointer]:
+              - img [ref=e167]
+              - generic [ref=e179]: אנרגיה ירוקה
+            - tab "החנות שלנו" [ref=e180] [cursor=pointer]:
+              - img [ref=e181]
+              - generic [ref=e186]: החנות שלנו
+        - tabpanel "אנרגיה" [ref=e188]:
+          - generic [ref=e192]:
+            - heading "פתרונות האנרגיה של אמישראגז" [level=2] [ref=e193]
+            - paragraph [ref=e194]: "אנחנו גאים להיות חברת אנרגיה מובילה המספקת את כלל פתרונות האנרגיה לבית ולעסק תחת קורת גג אחת, ומעניקה ללקוחותיה מגוון פתרונות זמינים, בטוחים, חסכוניים במיוחד וידידותיים לסביבה:"
+            - generic [ref=e197]:
+              - heading "אנרגיית גז" [level=3] [ref=e198]
+              - paragraph [ref=e199]: כחברת הגז הגדולה והמובילה בישראל, אנחנו מזמינים אתכם להצטרף למאות אלפי לקוחות פרטיים ועסקיים הנהנים מאספקה שוטפת של גז למגוון שימושים, תוך הקפדה מירבית על בטיחות, זמינות ורמת שירות גבוהה.
+              - link "לפרטים נוספים אנרגיית גז" [ref=e200] [cursor=pointer]:
+                - /url: /gas/
+                - text: לפרטים נוספים
+            - generic [ref=e203]:
+              - heading "אנרגיית חשמל" [level=3] [ref=e204]
+              - paragraph [ref=e205]: אמישראגז זה גם חשמל- עכשיו באפשרותכם לבחור באמישראגז גם כספק החשמל שלכם, על גבי התשתית הקיימת, וליהנות מאותו החשמל בפחות כסף עם חיסכון של מאות שקלים בשנה לפחות.
+              - link "לפרטים נוספים אנרגיית חשמל" [ref=e206] [cursor=pointer]:
+                - /url: https://www.amisragas.co.il/%D7%A2%D7%9E%D7%95%D7%93-%D7%97%D7%A9%D7%9E%D7%9C-%D7%90%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%92%D7%96-%D7%97%D7%93%D7%A9/
+                - text: לפרטים נוספים
+            - generic [ref=e209]:
+              - heading "מוצרים ופתרונות משלימים" [level=3] [ref=e210]
+              - paragraph [ref=e211]: בנוסף לאספקת פתרונות אנרגיה מגוונים, אמישראגז מציעה מבחר גדול של מוצרים, אביזרים ושירותים משלימים, שהופכים את החיים בבית ובעסק לקלים, נעימים, חמימים ומהנים במיוחד.
+            - generic [ref=e214]:
+              - heading "חימום מים ביתי בגז" [level=3] [ref=e215]
+              - paragraph [ref=e216]: מחמם המים בגז של אמישראגז הוא הפיתרון היעיל, הנעים והחסכוני ביותר שמאפשר לכל המשפחה ליהנות ממים חמים 24/7 בכל עונות השנה
+              - link "לפרטים נוספים חימום מים ביתי בגז" [ref=e217] [cursor=pointer]:
+                - /url: /shop/%D7%9E%D7%97%D7%9E%D7%9E%D7%99-%D7%9E%D7%99%D7%9D/#
+                - text: לפרטים נוספים
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "מוצרי הדגל של אמישראגז" [level=2] [ref=e221]
+          - paragraph [ref=e222]: חדשנות בעולם האנרגיה פתרונות מתקדמים מבית אמישראגז
+        - generic [ref=e223]:
+          - tablist [ref=e225]:
+            - tab "גרילים" [selected] [ref=e226] [cursor=pointer]:
+              - generic [ref=e227]: גרילים
+            - tab "כיריים ותנורים" [ref=e228] [cursor=pointer]:
+              - generic [ref=e229]: כיריים ותנורים
+            - tab "מיכלים לגריל" [ref=e230] [cursor=pointer]:
+              - generic [ref=e231]: מיכלים לגריל
+            - tab "קמפינג" [ref=e232] [cursor=pointer]:
+              - generic [ref=e233]: קמפינג
+            - tab "מחממי מים" [ref=e234] [cursor=pointer]:
+              - generic [ref=e235]: מחממי מים
+          - tabpanel "גרילים" [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - link "גריל גז סיגנט 390 שחור, הטבות בשווי₪600 במתנה! הרכבה הובלה וכיסוי, 25 שנות אחריות*" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%92%D7%A8%D7%99%D7%9C-%D7%92%D7%96-%D7%A1%D7%99%D7%92%D7%A0%D7%98-390-%D7%A9%D7%97%D7%95%D7%A8/
+                  - generic [ref=e240]:
+                    - img
+                  - generic [ref=e242]:
+                    - img
+                  - generic [ref=e243]:
+                    - img
+                  - paragraph [ref=e244]: גריל גז סיגנט 390 שחור
+                - generic [ref=e245]: "מק\"ט: 129211"
+                - paragraph [ref=e246]: גריל גז מקצועי עם 3 מבערים עוצמתיים כולל שיפוד מסתובב וכירה.
+                - paragraph [ref=e247]: התמונה להמחשה בלבד, ט.ל.ח
+                - generic [ref=e249]:
+                  - generic [ref=e250]: מחיר לצרכן
+                  - generic [ref=e251]: 4,790 ₪
+                - link "לרכישה >>" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%92%D7%A8%D7%99%D7%9C-%D7%92%D7%96-%D7%A1%D7%99%D7%92%D7%A0%D7%98-390-%D7%A9%D7%97%D7%95%D7%A8/
+                  - generic [ref=e254]: לרכישה >>
+              - generic [ref=e255]:
+                - link "גריל גז רויאל 390, הטבות בשווי₪600 במתנה! הרכבה הובלה וכיסוי, 25 שנות אחריות*" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%92%D7%A8%D7%99%D7%9C-%D7%92%D7%96-%D7%A8%D7%95%D7%99%D7%90%D7%9C-390/
+                  - generic [ref=e257]:
+                    - img
+                  - generic [ref=e259]:
+                    - img
+                  - generic [ref=e260]:
+                    - img
+                  - paragraph [ref=e261]: גריל גז רויאל 390
+                - generic [ref=e262]: "מק\"ט: 129117"
+                - paragraph [ref=e263]: גריל גז עוצמתי עם 3 מבערים נירוסטה.
+                - paragraph [ref=e264]: התמונה להמחשה בלבד, ט.ל.ח
+                - generic [ref=e266]:
+                  - generic [ref=e267]: מחיר לצרכן
+                  - generic [ref=e268]: 4,190 ₪
+                - link "לרכישה >>" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%92%D7%A8%D7%99%D7%9C-%D7%92%D7%96-%D7%A8%D7%95%D7%99%D7%90%D7%9C-390/
+                  - generic [ref=e271]: לרכישה >>
+              - generic [ref=e272]:
+                - link "גריל גז סיגנט 320 Broil King, הטבות בשווי₪690 במתנה! הרכבה הובלה וכיסוי, 25 שנות אחריות*" [ref=e273] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%A1%D7%99%D7%92%D7%A0%D7%98-320-broil-king/
+                  - generic [ref=e274]:
+                    - img
+                  - generic [ref=e276]:
+                    - img
+                  - generic [ref=e277]:
+                    - img
+                  - paragraph [ref=e278]: גריל גז סיגנט 320 Broil King
+                - generic [ref=e279]: "מק\"ט: 128690"
+                - paragraph [ref=e280]: גריל גז 3 מבערי נירוסטה, 40,000 BTU, הגריל עם שטח הצלייה הגדול ביותר בקטגוריית 3 מבערים
+                - paragraph [ref=e281]: התמונה להמחשה בלבד, ט.ל.ח
+                - generic [ref=e283]:
+                  - generic [ref=e284]: מחיר לצרכן
+                  - generic [ref=e285]: 3,890 ₪
+                - link "לרכישה >>" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%90%D7%A8%D7%95%D7%9F/%D7%A1%D7%99%D7%92%D7%A0%D7%98-320-broil-king/
+                  - generic [ref=e288]: לרכישה >>
+      - generic [ref=e292]:
+        - heading "לוקחים אתכם באופן אישי" [level=2] [ref=e293]
+        - paragraph [ref=e294]: אמישראגז מעמידה לרשותכם כלים דיגיטליים המאפשרים לבצע מגוון פעולות בשירות עצמי 24/7 באזור האישי באתר.
+        - link "לפעולות בשירות עצמי" [ref=e295] [cursor=pointer]:
+          - /url: /self-service/
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - heading "בלוג" [level=3] [ref=e298]
+          - paragraph [ref=e299]: ריכזנו עבורכם מגוון טיפים, מידע והמלצות בטיחות, על מנת שתוכלו להפיק את המקסימום מפתרונות האנרגיה ומהמוצרים המשלימים של אמישראגז
+          - generic [ref=e300]:
+            - button "הבא" [ref=e301] [cursor=pointer]
+            - button "הקודם" [disabled] [ref=e302]
+        - generic [ref=e304]:
+          - group "1 / 3" [ref=e305]:
+            - link [ref=e306] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/vod/%D7%90%D7%91%D7%99%D7%91-%D7%94%D7%92%D7%99%D7%A2-%D7%98%D7%91%D7%A2-%D7%91%D7%90/
+            - generic [ref=e309]:
+              - generic [ref=e310]: VOD
+              - heading "אביב הגיע טבע בא" [level=3] [ref=e311]
+              - paragraph [ref=e312]: האביב כבר כאן! קמפינג, פיקניק וטיפים לטיול מושלם בטבע
+              - generic [ref=e313]: 4 דקות
+          - group "2 / 3" [ref=e314]:
+            - link [ref=e315] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A2%D7%95%D7%96%D7%A8%D7%99%D7%9D-%D7%9C%D7%9B%D7%9D-%D7%9C%D7%91%D7%97%D7%95%D7%A8-%D7%92%D7%A8%D7%99%D7%9C-%D7%9C%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%9F-%D7%95%D7%9C%D7%9E%D7%AA%D7%97%D7%99%D7%9C/
+            - generic [ref=e318]:
+              - generic [ref=e319]: כתבות >> טיפים והדרכות
+              - heading "עוזרים לכם לבחור גריל, למקצוען ולמתחיל!" [level=3] [ref=e320]
+              - paragraph [ref=e321]: "הגריל שתמיד רציתם: המלצות על גרילים מובילים וטיפים לבילוי מושלם"
+              - generic [ref=e322]: 6 דקות
+          - group "3 / 3" [ref=e323]:
+            - link [ref=e324] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/vod/%D7%A2%D7%9C-%D7%9E%D7%94%D7%A4%D7%9B%D7%AA-%D7%94%D7%97%D7%A9%D7%9E%D7%9C-%D7%95%D7%A2%D7%9C-%D7%A7%D7%99%D7%A0%D7%95%D7%97-%D7%9E%D7%A4%D7%AA%D7%99%D7%A2-%D7%91%D7%9E%D7%99%D7%95%D7%97%D7%93/
+            - generic [ref=e327]:
+              - generic [ref=e328]: VOD
+              - heading "על מהפכת החשמל ועל קינוח מפתיע במיוחד" [level=3] [ref=e329]
+              - paragraph [ref=e330]: "חשמל חדשני וקינוח משובח: המהפכה החשמלית של אמישראגז משנה את המשחק"
+              - generic [ref=e331]: 3 דקות
+    - contentinfo [ref=e332]:
+      - list [ref=e333]:
+        - listitem [ref=e334]:
+          - generic [ref=e335]:
+            - text: אמישראגז זה
+            - generic [ref=e336]: מקצועיות
+        - listitem [ref=e337]:
+          - generic [ref=e338]:
+            - text: אמישראגז זה
+            - generic [ref=e339]: בטיחות
+        - listitem [ref=e340]:
+          - generic [ref=e341]:
+            - text: אמישראגז זה
+            - generic [ref=e342]: איכות
+      - generic [ref=e343]:
+        - link "עמוד הבית לוגו אמישראגז":
+          - /url: https://www.amisragas.co.il
+        - generic [ref=e344]:
+          - paragraph [ref=e345]:
+            - text: "מוקד שירות ארצי:"
+            - link "3626*" [ref=e346] [cursor=pointer]:
+              - /url: tel:*3626
+          - paragraph [ref=e347]:
+            - text: "מוקד מכירות ארצי:"
+            - link "3179*" [ref=e348] [cursor=pointer]:
+              - /url: tel:*3179
+          - paragraph [ref=e349]:
+            - text: "טלפון חירום:"
+            - link "03-6417274" [ref=e350] [cursor=pointer]:
+              - /url: tel:036417274
+          - paragraph [ref=e351]: למקרה של דליפה בלבד ולאחר שעות העבודה (בשעות העבודה יש לפנות לסניף הקרוב לביתכם)
+          - paragraph [ref=e352]:
+            - text: שירות למוצרי הגרילים – חייגו
+            - link "9528*" [ref=e353] [cursor=pointer]:
+              - /url: tel:*9528
+            - text: או
+            - link "לחצו לפתיחת פניה באתר" [ref=e354] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%92%D7%A8%D7%99%D7%9C%D7%99%D7%9D/
+          - paragraph [ref=e355]:
+            - text: "פנייה בדבר ליקוי במוצר/שרות וכל פנייה אחרת:"
+            - link "1-800-379-777" [ref=e356] [cursor=pointer]:
+              - /url: tel:1800379777
+            - text: א-ה 09:00-15:00
+          - paragraph [ref=e357]:
+            - link "מדיניות פרטיות" [ref=e358] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/privacy/
+            - text: /
+            - link "הצהרת נגישות" [ref=e359] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/accessibility/
+            - text: /
+            - link "תנאי שימוש" [ref=e360] [cursor=pointer]:
+              - /url: https://www.amisragas.co.il/terms/
+          - paragraph [ref=e361]:
+            - text: החברה האמריקאית הישראלית לגז בע"מ
+            - text: ח.פ 510059744
+            - text: "כתובת: אחד העם 34, ת\"א, מיקוד: 6515107"
+      - generic [ref=e362]:
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - heading "אמישראגז אנרגיה" [level=4] [ref=e365]
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - link "אודות אמישראגז" [ref=e368] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/about-us/
+              - listitem [ref=e369]:
+                - link "גז טבעי" [ref=e370] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/natural-gas-page/
+              - listitem [ref=e371]:
+                - link "אנרגיה בגז" [ref=e372] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/gas/
+              - listitem [ref=e373]:
+                - link "חשמל" [ref=e374] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/%D7%A2%D7%9E%D7%95%D7%93-%D7%97%D7%A9%D7%9E%D7%9C-%D7%90%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%92%D7%96-%D7%97%D7%93%D7%A9/
+              - listitem [ref=e375]:
+                - link "עמדות טעינה" [ref=e376] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/cars-charging-stations/
+              - listitem [ref=e377]:
+                - link "אנרגיה סולארית" [ref=e378] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/solar-panel-page/
+              - listitem [ref=e379]:
+                - link "דודי שמש" [ref=e380] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/solar-water-heater-page/
+              - listitem [ref=e381]:
+                - link "משרות" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/careers/
+              - listitem [ref=e383]:
+                - link "English" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/amisragas-english/
+          - generic [ref=e385]:
+            - heading "רכישה והצטרפות" [level=4] [ref=e386]
+            - list [ref=e387]:
+              - listitem [ref=e388]:
+                - link "חנות" [ref=e389] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/shop/
+              - listitem [ref=e390]:
+                - link "הצטרפות לאמישראגז" [ref=e391] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/contact-us/
+              - listitem [ref=e392]:
+                - link "הצטרפות דיגיטלית לחשמל" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/lp-digital-electricity/
+              - listitem:
+                - link:
+                  - /url: http://הזמנת%20מיכלי%20גז%20לגריל
+              - listitem [ref=e394]:
+                - link "אמישראגז חשמל" [ref=e395] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/%D7%A2%D7%9E%D7%95%D7%93-%D7%97%D7%A9%D7%9E%D7%9C-%D7%90%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%92%D7%96-%D7%97%D7%93%D7%A9/
+              - listitem [ref=e396]:
+                - link "אמישראגז חימום מים" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/water-heaters-page/
+              - listitem [ref=e398]:
+                - link "מבצעים חמים" [ref=e399] [cursor=pointer]:
+                  - /url: /shop//מבצעים-חמים/
+              - listitem [ref=e400]:
+                - link "טופס ביטול עסקה" [ref=e401] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/cancel-order/
+              - listitem [ref=e402]:
+                - link "טופס בקשה לשירות תיקון או חלפים לגריל" [ref=e403] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/%D7%98%D7%95%D7%A4%D7%A1-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%92%D7%A8%D7%99%D7%9C%D7%99-%D7%91%D7%A8%D7%95%D7%99%D7%9C-%D7%A7%D7%99%D7%A0%D7%92/
+          - generic [ref=e404]:
+            - heading "פעולות שירות עבורך" [level=4] [ref=e405]
+            - list [ref=e406]:
+              - listitem [ref=e407]:
+                - link "תשלום חשבון גז" [ref=e408] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/pay-gas-bill/
+              - listitem [ref=e409]:
+                - link "הזמנת מיכל ביתי" [ref=e410] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/tanks-order/
+              - listitem [ref=e411]:
+                - link "תאום בדיקה תקופתית" [ref=e412] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/gasinspection-login/
+              - listitem [ref=e413]:
+                - link "הוראת קבע בכרטיסי אשראי גז" [ref=e414] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/direct-debit/
+              - listitem [ref=e415]:
+                - link "הוראת קבע בחשבון הבנק גז" [ref=e416] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/bank-subscription/
+              - listitem [ref=e417]:
+                - link "עדכון דייר משנה" [ref=e418] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/subtenant/
+              - listitem [ref=e419]:
+                - link "דיווח קריאת מונה" [ref=e420] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/meter-reading/
+              - listitem [ref=e421]:
+                - link "העברת בעלות" [ref=e422] [cursor=pointer]:
+                  - /url: /digital-ownership-transfer-login/
+              - listitem [ref=e423]:
+                - link "קבלת חשבונית במייל" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/email-invoice/
+              - listitem [ref=e425]:
+                - link "צפייה בחשבוניות חשמל" [ref=e426] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/recipts/
+              - listitem [ref=e427]:
+                - link "הוראת קבע לחשבון החשמל" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/recurring_pay_login/
+          - generic [ref=e429]:
+            - heading "מידע נוסף לשירותך" [level=4] [ref=e430]
+            - list [ref=e431]:
+              - listitem [ref=e432]:
+                - link "אודות" [ref=e433] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/about-us/
+              - listitem [ref=e434]:
+                - link "צור עימנו קשר" [ref=e435] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/contact-us/
+              - listitem [ref=e436]:
+                - link "הוראות בטיחות" [ref=e437] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%90%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%92%D7%96/
+              - listitem [ref=e438]:
+                - link "הסכם צרכן גפ" [ref=e439] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/02/חוזה-צרכן-אמישראגז-מעודכן-לאתר-דצמבר-2024.pdf
+                  - text: הסכם צרכן גפ"מ
+              - listitem [ref=e440]:
+                - link "הסכם צרכן גז טבעי - PDF" [ref=e441] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/02/gaztvei.pdf
+                  - text: הסכם צרכן גז טבעי
+              - listitem [ref=e442]:
+                - link "הסכם להספקת חשמל - PDF" [ref=e443] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/07/הסכם-צרכן-אמישראגז-בזא-5.2025.pdf
+                  - text: הסכם להספקת חשמל
+              - listitem [ref=e444]:
+                - link "תעודת אחריות אמישראגז - PDF" [ref=e445] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/04/תעודת-אחריות-כללית.pdf
+                  - text: תעודת אחריות אמישראגז
+              - listitem [ref=e446]:
+                - link "תעודת אחריות גרילים - PDF" [ref=e447] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/09/broilking_warranty_נגיש.pdf
+                  - text: תעודת אחריות גרילים
+              - listitem [ref=e448]:
+                - link "תעודת אחריות מחחמי מים - PDF" [ref=e449] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/07/WATER_HEATER_WARRANTY.cleaned.pdf
+                  - text: תעודת אחריות מחחמי מים
+              - listitem [ref=e450]:
+                - link "תעודת אחריות למוצרי ניופאן - PDF" [ref=e451] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/wp-content/uploads/2025/02/תעודת-אחריות-למוצרי-ניופאן.pdf
+                  - text: תעודת אחריות למוצרי ניופאן
+              - listitem [ref=e452]:
+                - link "תביעות ייצוגיות" [ref=e453] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/claims/
+              - listitem [ref=e454]:
+                - link "תקנות, מחירים והסדרים" [ref=e455] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/prices/
+              - listitem [ref=e456]:
+                - link "הצגת בתים במרכזיה" [ref=e457] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/merkazia/
+              - listitem [ref=e458]:
+                - link "תנאי שימוש" [ref=e459] [cursor=pointer]:
+                  - /url: /terms/
+              - listitem [ref=e460]:
+                - link "מדיניות פרטיות" [ref=e461] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/privacy/
+              - listitem [ref=e462]:
+                - link "תקנון מבצע התנסות מחמם מים" [ref=e463] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/takanon-heater/
+              - listitem [ref=e464]:
+                - link "*היתר עסקה אמישראגז חשמל->>" [ref=e465] [cursor=pointer]:
+                  - /url: https://heter-iska.com/%D7%94%D7%99%D7%AA%D7%A8-%D7%A2%D7%A1%D7%A7%D7%94-%D7%90%D7%9E%D7%99%D7%A9%D7%A8%D7%90%D7%92%D7%96-%D7%97%D7%A9%D7%9E%D7%9C/%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%9B%D7%A9%D7%A8%D7%99%D7%9D/
+              - listitem [ref=e466]:
+                - link "הרשמה לחשבונית נגישה" [ref=e467] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/register-for-accessibility-receipt/
+              - listitem [ref=e468]:
+                - link "הסרה מדיוור שיווקי" [ref=e469] [cursor=pointer]:
+                  - /url: https://www.amisragas.co.il/%D7%A2%D7%9E%D7%95%D7%93-%D7%94%D7%A1%D7%A8%D7%94-%D7%9E%D7%93%D7%99%D7%95%D7%95%D7%A8-%D7%A9%D7%99%D7%95%D7%95%D7%A7%D7%99/
+        - list [ref=e470]:
+          - listitem [ref=e471]:
+            - link "ליוטיוב" [ref=e472] [cursor=pointer]:
+              - /url: https://www.youtube.com/@user-ir2px5ke6u
+              - generic [ref=e473]: 
+          - listitem [ref=e474]:
+            - link "לפייסבוק" [ref=e475] [cursor=pointer]:
+              - /url: https://www.facebook.com/amisragashome/
+              - generic [ref=e476]: 
+          - listitem [ref=e477]:
+            - link "לאינסטגרם" [ref=e478] [cursor=pointer]:
+              - /url: https://www.instagram.com/amisragashome/
+              - generic [ref=e479]: 
+        - generic [ref=e481]:
+          - link "להורדת אפליקציה אמשירגז דרך אפל סתור בפתיחת עמוד חדש" [ref=e482] [cursor=pointer]:
+            - /url: https://apps.apple.com/il/app/amisragas-mobile/id1073578468
+          - link "להורדת אפליקציה אמשירגז דרך גוגל פליי בפתיחת עמוד חדש" [ref=e484] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=web2application.a271740578553.com.myapplication&pcampaignid=web_share
+        - generic [ref=e486]:
+          - paragraph [ref=e487]:
+            - text: Design & Code by
+            - link "elevate" [ref=e488] [cursor=pointer]:
+              - /url: http://elevate.co.il/
+          - paragraph [ref=e489]: © כל הזכויות שמורות לאמישראגז 2026.
+        - button "גלול חזרה לראש העמוד" [ref=e490] [cursor=pointer]:
+          - generic [ref=e491]: 
+    - text:     
+  - button "פתח אפשרות התקשרות" [ref=e493]
+  - status [ref=e495]
+```

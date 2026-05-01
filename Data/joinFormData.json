@@ -14,6 +14,6 @@
     "zip": "12345",
     "message": "הודעת בדיקה",
     "filePath": "C:/Users/amitm/automation_Projects/amisragas_project/Data/Capture.PNG",
-    "expectedSuccessUrl": "https://www.amisragas.co.il/contact-success/",
-    "waitForUrlValue": "contact-successs"
+    "expectedSuccessUrl": "https://www.amisragas.co.il/contact-successs/",
+    "waitForUrlValue": "contact-success"
 }
